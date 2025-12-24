@@ -1,8 +1,8 @@
-# 🏠 House Price Prediction Model
+# House Price Prediction Model
 
 A machine learning project that predicts house prices using regression models. This project includes data preprocessing, model training with multiple algorithms, and a Flask REST API for serving predictions.
 
-## 🔍 Overview
+## Overview
 
 This project implements a house price prediction system using various regression algorithms including:
 - Linear Regression
@@ -11,7 +11,7 @@ This project implements a house price prediction system using various regression
 
 The model is trained on housing data with features like square footage, number of bedrooms, bathrooms, location, and more.
 
-## ✨ Features
+## Features
 
 - **Multiple ML Models**: Compare performance across Linear Regression, Random Forest, and XGBoost
 - **Feature Engineering**: Includes derived features like house age, renovation status, and total square footage
@@ -19,7 +19,7 @@ The model is trained on housing data with features like square footage, number o
 - **REST API**: Flask-based API for real-time predictions
 - **Model Persistence**: Trained model saved using joblib for easy deployment
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Regression_Model/
@@ -34,7 +34,7 @@ Regression_Model/
 └── README.md               # Project documentation
 ```
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -53,7 +53,7 @@ Regression_Model/
    pip install -r requirements.text
    ```
 
-## 💻 Usage
+## Usage
 
 ### Training the Model
 
@@ -113,7 +113,7 @@ curl -X POST http://127.0.0.1:5000/predict \
 }
 ```
 
-## 🤖 Models
+## Models
 
 | Model | Description |
 |-------|-------------|
@@ -127,14 +127,14 @@ curl -X POST http://127.0.0.1:5000/predict \
 - **MAE** (Mean Absolute Error): Average absolute difference between predictions and actual values
 - **R²** (R-squared): Proportion of variance explained by the model
 
-## 🔌 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/` | GET | Health check - returns API status |
 | `/predict` | POST | Make a house price prediction |
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.9.13**
 - **Pandas** - Data manipulation
